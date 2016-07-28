@@ -1,0 +1,14 @@
+{
+"urlSpoutParallel": 1,
+"resolveBoltParallel": 3,
+"grabBoltParallel": 3,
+"grabLimit": 3,
+"cmd": "storm jar Video.jar com.persist.GrabThread ",
+"zks":"192.168.0.189:2181",
+"topic":"topic-capture-image",
+"zkRoot":"/usr/local/zookeeper-3.4.8/root",
+"id":"kafka-video",
+"zkServers":["192.168.0.189"],
+"zkPort":2181,
+"log":"video_log"
+}
